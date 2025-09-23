@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+  "name": "paca_naturaliste",
+  "folder_name": "paca_naturaliste",
+  "description": "QGIS profile pour les chargé.e.s de mission Naturaliste à la LPO PACA.",
+  "author": "Pôle système d'information",
+  "email": "aura.support@lpo.fr",
+  "icon": "images/logo_qgis_lpo.ico",
+  "qgisMinimumVersion": "3.28.0",
+  "qgisMaximumVersion": "3.99.10",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "Plugin LPO",
+      "folder_name": "plugin_qgis_lpo",
+      "version": "3.5.1",
+      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.5.1/plugins.xml",
+      "official_repository": false
+    },
+    {
+      "name": "Layers menu from project",
+      "folder_name": "menu_from_project",
+      "official_repository": true,
+      "plugin_id": 43,
+      "version": "2.4.1"
+    }
+  ],
+  "rules": [
+    {
+      "name": "Domaine",
+      "description": "Restriction de diffusion sur les groupes AD ou OS ou variable environnement",
+      "conditions": {
+        "any": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_admin",
+            "operator": "contains"
+          },
+          {
+            "path": "$.environment.operating_system_code",
+            "value": "linux",
+            "operator": "equal"
+          },
+          {
+            "path": "$.env.QDT_LPO",
+            "operator": "equal",
+            "value": "lpo_paca"
+          }
+        ]
+      }
+    }
+  ]
+}

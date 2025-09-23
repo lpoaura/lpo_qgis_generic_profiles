@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+  "name": "bfc_naturaliste",
+  "folder_name": "bfc_naturaliste",
+  "description": "QGIS profil pour les chargé.e.s de mission Naturaliste à la LPO.",
+  "author": "LPO Auvergne-Rhône-Alpes",
+  "email": "aura.support@lpo.fr",
+  "icon": "images/logo_qgis_lpo.ico",
+  "qgisMinimumVersion": "3.28.0",
+  "qgisMaximumVersion": "3.99.10",
+  "version": "0.0.6",
+  "plugins": [
+    {
+      "name": "French Locator Filter",
+      "folder_name": "french_locator_filter",
+      "official_repository": true,
+      "plugin_id": 1846,
+      "version": "1.1.1"
+    },
+    {
+      "name": "Group Stats",
+      "folder_name": "GroupStats",
+      "official_repository": true,
+      "plugin_id": 40,
+      "version": "2.2.7"
+    },
+    {
+      "name": "Mask",
+      "folder_name": "mask",
+      "official_repository": true,
+      "plugin_id": 65,
+      "version": "1.10.2"
+    },
+    {
+      "name": "Plugin LPO",
+      "folder_name": "plugin_qgis_lpo",
+      "version": "3.5.1",
+      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.5.1/plugins.xml",
+      "official_repository": false
+    },
+    {
+      "name": "Layers menu from project",
+      "folder_name": "menu_from_project",
+      "official_repository": true,
+      "plugin_id": 43,
+      "version": "2.1.0"
+    },
+    {
+      "name": "Spreadsheet Layers",
+      "folder_name": "SpreadsheetLayers",
+      "official_repository": true,
+      "plugin_id": 766,
+      "version": "2.1.2"
+    },
+    {
+      "name": "ExcelSync",
+      "folder_name": "excel_sync",
+      "official_repository": true,
+      "plugin_id": 1712,
+      "version": "3.6"
+    },
+    {
+      "name": "Graphab",
+      "folder_name": "graphab4qgis",
+      "official_repository": true,
+      "plugin_id": 2270,
+      "version": "0.6.6"
+    },
+    {
+      "name": "QuickMapServices",
+      "folder_name": "quick_map_services",
+      "official_repository": true,
+      "plugin_id": 663,
+      "version": "0.19.34"
+    },
+    {
+      "name": "Processing Saga NextGen Provider",
+      "folder_name": "processing_saga_nextgen",
+      "official_repository": true,
+      "plugin_id": 1666,
+      "version": "1.0.0"
+    }
+  ],
+  "rules": [
+    {
+      "name": "Domaine",
+      "description": "Restriction de diffusion sur les groupes AD ou OS ou variable environnement",
+      "conditions": {
+        "any": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_admin",
+            "operator": "contains"
+          },
+          {
+            "path": "$.environment.operating_system_code",
+            "value": "linux",
+            "operator": "equal"
+          },
+          {
+            "path": "$.env.QDT_LPO",
+            "operator": "equal",
+            "value": "lpo_pdl"
+          }
+        ]
+      }
+    }
+  ]
+}
