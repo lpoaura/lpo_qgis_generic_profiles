@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+  "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/profile/qgis_profile.json",
   "name": "bfc_naturaliste",
   "folder_name": "bfc_naturaliste",
   "description": "QGIS profil pour les chargé.e.s de mission Naturaliste à la LPO.",
