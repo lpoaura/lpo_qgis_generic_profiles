@@ -55,7 +55,9 @@ steps:
           desktop: true
           start_menu: true
           icon: "logo_qgis_lpo.ico"
-          additional_arguments: "--noversioncheck --skipbadlayers"
+          additional_arguments:
+            - --noversioncheck
+            - --skipbadlayers
 
   - name: Create shortcuts for profiles
     uses: shortcuts-manager
@@ -67,7 +69,9 @@ steps:
           desktop: true
           start_menu: true
           icon: "logo_qgis_lpo.ico"
-          additional_arguments: "--noversioncheck --skipbadlayers"
+          additional_arguments:
+            - --noversioncheck
+            - --skipbadlayers
 
   - name: Set splash screen
     uses: splash-screen-manager
