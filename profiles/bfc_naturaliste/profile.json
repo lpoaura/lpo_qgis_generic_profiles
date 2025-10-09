@@ -100,7 +100,7 @@
           {
             "path": "$.env.QDT_LPO",
             "operator": "equal",
-            "value": "lpo_pdl"
+            "value": "lpo_bfc"
           }
         ]
       }
