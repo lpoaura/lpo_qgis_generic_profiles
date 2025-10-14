@@ -300,7 +300,7 @@
    </customproperties>
   </LayoutObject>
  </LayoutItem>
- <LayoutItem type="65640" mode="1" templateUuid="{4534e797-5425-49cf-b04d-7eebb61af737}" background="false" file="../../../02_Administratif général ABC/logos/logo_LAMETROPOLE_H_quadri.jpg" frame="false" zValue="14" positionLock="false" northOffset="0" frameJoinStyle="miter" pictureRotation="0" northMode="0" blendMode="0" id="" itemRotation="0" anchorPoint="0" size="47.204,7,mm" outlineWidthM="0.3,mm" mapUuid="" excludeFromExports="0" groupUuid="" visibility="1" pictureHeight="7" svgBorderColor="0,0,0,255,rgb:0,0,0,1" pictureWidth="44.3333" position="205.18,8.56517,mm" svgBorderWidth="0.2" referencePoint="0" opacity="1" uuid="{4534e797-5425-49cf-b04d-7eebb61af737}" resizeMode="0" positionOnPage="205.18,8.56517,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1">
+ <LayoutItem type="65640" mode="1" templateUuid="{4534e797-5425-49cf-b04d-7eebb61af737}" background="false" file="@logo_metropole" frame="false" zValue="14" positionLock="false" northOffset="0" frameJoinStyle="miter" pictureRotation="0" northMode="0" blendMode="0" id="" itemRotation="0" anchorPoint="0" size="47.204,7,mm" outlineWidthM="0.3,mm" mapUuid="" excludeFromExports="0" groupUuid="" visibility="1" pictureHeight="7" svgBorderColor="0,0,0,255,rgb:0,0,0,1" pictureWidth="44.3333" position="205.18,8.56517,mm" svgBorderWidth="0.2" referencePoint="0" opacity="1" uuid="{4534e797-5425-49cf-b04d-7eebb61af737}" resizeMode="0" positionOnPage="205.18,8.56517,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1">
   <FrameColor green="0" alpha="255" blue="0" red="0"/>
   <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
   <LayoutObject>
@@ -316,7 +316,7 @@
    </customproperties>
   </LayoutObject>
  </LayoutItem>
- <LayoutItem type="65640" mode="1" templateUuid="{be5c4f73-b65a-4413-9fc5-0fae574a1364}" background="false" file="../../../02_Administratif général ABC/logos/logo-ofb.png" frame="false" zValue="13" positionLock="false" northOffset="0" frameJoinStyle="miter" pictureRotation="0" northMode="0" blendMode="0" id="" itemRotation="0" anchorPoint="0" size="39.36,15,mm" outlineWidthM="0.3,mm" mapUuid="" excludeFromExports="0" groupUuid="" visibility="1" pictureHeight="14.5491" svgBorderColor="0,0,0,255,rgb:0,0,0,1" pictureWidth="39.36" position="254.551,5.06517,mm" svgBorderWidth="0.2" referencePoint="0" opacity="1" uuid="{be5c4f73-b65a-4413-9fc5-0fae574a1364}" resizeMode="0" positionOnPage="254.551,5.06517,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1">
+ <LayoutItem type="65640" mode="1" templateUuid="{be5c4f73-b65a-4413-9fc5-0fae574a1364}" background="false" file="@logo_ofb" frame="false" zValue="13" positionLock="false" northOffset="0" frameJoinStyle="miter" pictureRotation="0" northMode="0" blendMode="0" id="" itemRotation="0" anchorPoint="0" size="39.36,15,mm" outlineWidthM="0.3,mm" mapUuid="" excludeFromExports="0" groupUuid="" visibility="1" pictureHeight="14.5491" svgBorderColor="0,0,0,255,rgb:0,0,0,1" pictureWidth="39.36" position="254.551,5.06517,mm" svgBorderWidth="0.2" referencePoint="0" opacity="1" uuid="{be5c4f73-b65a-4413-9fc5-0fae574a1364}" resizeMode="0" positionOnPage="254.551,5.06517,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1">
   <FrameColor green="0" alpha="255" blue="0" red="0"/>
   <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
   <LayoutObject>
@@ -401,7 +401,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem type="65640" mode="0" templateUuid="{461b1fa0-6235-4abe-a08d-b515194f5c7a}" background="false" file="../../../../../LPO PACA - Salariés - Partage/Centre de ressources techniques/SIG/Modeles_QGIS/logo_LPO_PACA/RVB_LPO_PACA_LOGOTYPE_SIGNATURE_GAUCHE.svg" frame="false" zValue="10" positionLock="false" northOffset="0" frameJoinStyle="miter" pictureRotation="0" northMode="0" blendMode="0" id="" itemRotation="0" anchorPoint="0" size="55.5131,25.3592,mm" outlineWidthM="0.3,mm" mapUuid="" excludeFromExports="0" groupUuid="" visibility="1" pictureHeight="25.3592" svgBorderColor="0,0,0,255,rgb:0,0,0,1" pictureWidth="52.4655" position="4.11576,-0.574579,mm" svgBorderWidth="0.2" referencePoint="0" opacity="1" uuid="{461b1fa0-6235-4abe-a08d-b515194f5c7a}" resizeMode="0" positionOnPage="4.11576,-0.574579,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1">
+ <LayoutItem type="65640" mode="0" templateUuid="{461b1fa0-6235-4abe-a08d-b515194f5c7a}" background="false" file="@logo_lpo_gauche" frame="false" zValue="10" positionLock="false" northOffset="0" frameJoinStyle="miter" pictureRotation="0" northMode="0" blendMode="0" id="" itemRotation="0" anchorPoint="0" size="55.5131,25.3592,mm" outlineWidthM="0.3,mm" mapUuid="" excludeFromExports="0" groupUuid="" visibility="1" pictureHeight="25.3592" svgBorderColor="0,0,0,255,rgb:0,0,0,1" pictureWidth="52.4655" position="4.11576,-0.574579,mm" svgBorderWidth="0.2" referencePoint="0" opacity="1" uuid="{461b1fa0-6235-4abe-a08d-b515194f5c7a}" resizeMode="0" positionOnPage="4.11576,-0.574579,mm" svgFillColor="255,255,255,255,rgb:1,1,1,1">
   <FrameColor green="0" alpha="255" blue="0" red="0"/>
   <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
   <LayoutObject>
