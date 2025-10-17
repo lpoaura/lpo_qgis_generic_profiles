@@ -23,6 +23,41 @@
       "official_repository": true,
       "plugin_id": 43,
       "version": "2.4.1"
+    },
+     {
+      "name": "French Locator Filter",
+      "folder_name": "french_locator_filter",
+      "official_repository": true,
+      "plugin_id": 1846,
+      "version": "1.3.0"
+    },
+    {
+      "name": "Group Stats",
+      "folder_name": "GroupStats",
+      "official_repository": true,
+      "plugin_id": 40,
+      "version": "2.2.7"
+    },
+    {
+      "name": "Mask",
+      "folder_name": "mask",
+      "official_repository": true,
+      "plugin_id": 65,
+      "version": "1.11.0"
+    },
+    {
+      "name": "Layers menu from project",
+      "folder_name": "menu_from_project",
+      "official_repository": true,
+      "plugin_id": 43,
+      "version": "2.4.1"
+    },
+    {
+      "name": "Spreadsheet Layers",
+      "folder_name": "SpreadsheetLayers",
+      "official_repository": true,
+      "plugin_id": 766,
+      "version": "2.1.2"
     }
   ],
   "rules": [
