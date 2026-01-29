@@ -73,6 +73,20 @@ steps:
             - --noversioncheck
             - --skipbadlayers
 
+  - name: Create shortcuts for profiles
+    uses: shortcuts-manager
+    with:
+      action: create_or_restore
+      include:
+        - profile: pdl_naturaliste
+          label: "QGIS LPO PDL"
+          desktop: true
+          start_menu: true
+          icon: "logo_qgis_lpo.ico"
+          additional_arguments:
+            - --noversioncheck
+            - --skipbadlayers
+
   - name: Set splash screen
     uses: splash-screen-manager
     with:
